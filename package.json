@@ -4,11 +4,15 @@
   "description": "Transforms MQL queries and aggregate frameworks pipelines to the Java fluent api",
   "main": "bin/index.js",
   "scripts": {
+    "mql2j": "node bin/index.js",
     "test": "jest"
   },
   "author": "Kevin Mas Ruiz <kevin.mas@hey.com>",
   "license": "ISC",
   "devDependencies": {
     "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "yargs": "^17.3.1"
   }
 }

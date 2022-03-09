@@ -10,8 +10,8 @@ const $eqFilter = require('./$eqFilter')
 
 module.exports = (mql, { verbosity, wildcardImport, printImports }) => {
     const useQualifiedMethodNames = verbosity != 'static import'
-    const useWildcardImport = wildcardImport == 'true'
-    const usePrintImports = printImports == 'true'
+    const useWildcardImport = wildcardImport == true
+    const usePrintImports = printImports == true
     
     const requires = []
     const javaMethod = (className, method) => useQualifiedMethodNames ? `${className}.${method}` : method
