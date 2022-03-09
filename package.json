@@ -1,0 +1,14 @@
+{
+  "name": "mql2j",
+  "version": "1.0.0",
+  "description": "Transforms MQL queries and aggregate frameworks pipelines to the Java fluent api",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Kevin Mas Ruiz <kevin.mas@hey.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
